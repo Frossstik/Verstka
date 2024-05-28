@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Блог</h1>
+    </header>
+    <main>
+        <section class="posts">
+            <h2>Записи</h2>
+            <div id="postsList"></div>
+        </section>
+        <aside>
+            <section class="create-post">
+                <h2>Создать запись</h2>
+                <form id="postForm">
+                    <label for="author">Автор</label>
+                    <input type="text" id="author" name="author" required>
+
+                    <label for="title">Заголовок</label>
+                    <input type="text" id="title" name="title" required>
+
+                    <label for="category">Категория</label>
+                    <input type="text" id="category" name="category" required>
+
+                    <label for="content">Содержание</label>
+                    <textarea id="content" name="content" rows="5" required></textarea>
+
+                    <button type="submit">Создать</button>
+
+                </form>
+                <section class="archive">
+                    <h2>Архив</h2>
+                    <ol id="archiveList"></ol>
+                </section>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <div class="footer-body">
+            <h1>Курсовая работа по JS.</h1>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

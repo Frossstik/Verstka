@@ -1,0 +1,126 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    background-color: #006b09;
+    padding: 16px;
+    border-bottom: solid 5px #07b148;
+}
+
+header h1 {
+    color: white;
+}
+
+main {
+    display: flex;
+    padding: 16px;
+}
+
+.posts, .create-post{
+    border: 0.1rem dashed #006b09;
+    border-radius: 15px;
+    flex: 1 1 20%;
+    margin-right: 30px;
+    padding: 20px;
+    box-shadow: 12px 12px 12px 1px rgb(206, 206, 206);
+}
+
+.posts {
+    flex: 3;
+}
+
+.create-post {
+    flex: 1;
+}
+
+.posts h2,
+.create-post h2 {
+    color: black;
+    border-bottom: 2px solid #07b148;
+    padding-bottom: 8px;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #40493B;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 200px;
+    border: 1px solid #40493B;
+    resize: vertical;
+}
+
+ol {
+    list-style-type: square;
+}
+
+button {
+    background-color: #006b09;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:focus {
+    background-color: #07b148;
+}
+
+
+/*______________________*/
+
+#postsList article {
+    padding: 16px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+button.delete,
+button.archive {
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button.delete {
+    background-color: #cf3a15;
+    margin-right: 16px;
+}
+
+button.archive {
+    background-color: #A3AE9E;
+}
+
+footer {
+    display: block;
+    padding: 20px;
+}
+
+.footer-body {
+    padding: 20px;
+    border-top: 5px solid silver;
+}
+
+.footer-body h1 {
+    font-size: 20px;
+}
