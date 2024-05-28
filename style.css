@@ -24,7 +24,6 @@ main {
 .posts, .create-post{
     border: 0.1rem dashed #006b09;
     border-radius: 15px;
-    flex: 1 1 20%;
     margin-right: 30px;
     padding: 20px;
     box-shadow: 12px 12px 12px 1px rgb(206, 206, 206);
